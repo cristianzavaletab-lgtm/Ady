@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para ti 🌸💕</title>
+    <meta name="description" content="Un detalle hecho con amor y dedicación">
+
+    <!-- Tipografías Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Italiana&family=Mrs+Saint+Delafield&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="Styles.css">
+</head>
+
+<body>
+
+    <!-- Barra de progreso -->
+    <div class="progress-container">
+        <div class="progress-bar"></div>
+    </div>
+
+    <!-- SECCIÓN 1: Bienvenida Elegante -->
+    <section class="section section-welcome current" id="welcome">
+        <div class="content-center">
+            <div class="bunny-emoji">🐰</div>
+            <h1 class="title-main fade-in">Hola, hermosa.</h1>
+            <p class="subtitle fade-in delay-1">Encontré algo que me recordó a ti...</p>
+            <p class="subtitle-small fade-in delay-2">Y no pude resistir compartirlo contigo.</p>
+            <button class="btn-continue fade-in delay-3" id="startBtn">Descubrir qué es</button>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 2: Introducción Poética -->
+    <section class="section section-intro" id="intro">
+        <div class="content-center">
+            <p class="intro-text scroll-reveal">¿Sabes qué tienen estos conejitos?</p>
+            <p class="intro-text-secondary scroll-reveal delay-1">Esa misma ternura genuina...</p>
+            <p class="intro-text-secondary scroll-reveal delay-2">Esa paz que transmiten sin decir nada...</p>
+            <p class="intro-text-secondary scroll-reveal delay-3">Esa dulzura que no se puede fingir.</p>
+            <p class="intro-text-emphasis scroll-reveal delay-4">Tal cual como tú.</p>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 3: Galería Premium con Mensajes Personalizados -->
+    <section class="section section-gallery" id="gallery">
+        <div class="content-wide">
+            <h2 class="gallery-title scroll-reveal">Mira lo que encontré 🐇</h2>
+
+            <div class="gallery-grid">
+                <!-- Foto 1 -->
+                <div class="photo-card scroll-reveal delay-1" data-tilt>
+                    <div class="photo-frame">
+                        <img src="Conejo02.jpeg" alt="Conejito adorable" class="bunny-photo" data-index="0">
+                        <div class="photo-caption">
+                            <p class="caption-text">Así de tierna eres cuando me miras y sonríes.</p>
+                        </div>
+                    </div>
+                    <div class="tape-decoration tape-top-left"></div>
+                </div>
+
+                <!-- Foto 2 -->
+                <div class="photo-card scroll-reveal delay-2" data-tilt>
+                    <div class="photo-frame">
+                        <img src="Conejo01.jpeg" alt="Conejito adorable" class="bunny-photo" data-index="1">
+                        <div class="photo-caption">
+                            <p class="caption-text">Tan serena como tú cuando estás en tu mundo.</p>
+                        </div>
+                    </div>
+                    <div class="tape-decoration tape-top-right"></div>
+                </div>
+
+                <!-- Foto 3 -->
+                <div class="photo-card scroll-reveal delay-3" data-tilt>
+                    <div class="photo-frame">
+                        <img src="Conejo03.jpeg" alt="Conejito adorable" class="bunny-photo" data-index="2">
+                        <div class="photo-caption">
+                            <p class="caption-text">Curiosa y atenta, como cuando descubres algo nuevo.</p>
+                        </div>
+                    </div>
+                    <div class="tape-decoration tape-bottom-left"></div>
+                </div>
+
+                <!-- Foto 4 -->
+                <div class="photo-card scroll-reveal delay-4" data-tilt>
+                    <div class="photo-frame">
+                        <img src="Conejo04.jpeg" alt="Conejito adorable" class="bunny-photo" data-index="3">
+                        <div class="photo-caption">
+                            <p class="caption-text">Perfecta, tal como eres.</p>
+                        </div>
+                    </div>
+                    <div class="tape-decoration tape-bottom-right"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 4: Conexión Profunda -->
+    <section class="section section-connection" id="connection">
+        <div class="content-center">
+            <div class="heart-decoration">💕</div>
+            <p class="connection-text scroll-reveal">Al verlos, no pude evitar pensar en ti.</p>
+            <p class="connection-text scroll-reveal delay-1">En esa forma tan especial que tienes de ser suave sin
+                perder tu esencia.</p>
+            <p class="connection-text scroll-reveal delay-2">De ser dulce sin dejar de ser fuerte cuando hace falta.</p>
+            <p class="connection-text scroll-reveal delay-3">De transmitir paz solo con tu presencia.</p>
+            <p class="connection-emphasis scroll-reveal delay-4">De hacer que todo se sienta mejor.</p>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 5: Dato Curioso Interactivo -->
+    <section class="section section-funfact" id="funfact">
+        <div class="content-center">
+            <div class="funfact-box scroll-reveal">
+                <div class="bunny-icon">🐰</div>
+                <h3 class="funfact-title">¿Sabías que...?</h3>
+                <p class="funfact-text">Los conejos hacen algo llamado "binky" cuando están muy felices.</p>
+                <p class="funfact-text">Es un salto espontáneo con giro en el aire, completamente involuntario.</p>
+                <p class="funfact-text">No lo pueden controlar. Solo pasa cuando están genuinamente contentos.</p>
+                <p class="funfact-text-special">Exactamente así me siento cuando me haces reír. ✨</p>
+            </div>
+
+            <div class="interactive-card scroll-reveal delay-2" id="interactiveCard">
+                <p class="card-prompt">Toca aquí 🌸</p>
+                <p class="card-message" id="cardMessage">Eres de esas personas que iluminan sin intentarlo. Como estos
+                    conejitos, que solo con existir ya hacen todo más hermoso. Así eres tú en mi vida. 💕</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 6: Comparación Detallada -->
+    <section class="section section-comparison" id="comparison">
+        <div class="content-center">
+            <h2 class="comparison-title scroll-reveal">Lo que tienen en común 🐇</h2>
+
+            <div class="comparison-grid">
+                <div class="comparison-item scroll-reveal delay-1">
+                    <div class="comparison-emoji">👂</div>
+                    <p class="comparison-label">Saben escuchar</p>
+                    <p class="comparison-description">Como tú cuando alguien necesita ser escuchado de verdad, sin
+                        juicios.</p>
+                </div>
+
+                <div class="comparison-item scroll-reveal delay-2">
+                    <div class="comparison-emoji">🌙</div>
+                    <p class="comparison-label">Transmiten calma</p>
+                    <p class="comparison-description">Esa paz tuya que hace que el silencio se sienta cómodo y no
+                        incómodo.</p>
+                </div>
+
+                <div class="comparison-item scroll-reveal delay-3">
+                    <div class="comparison-emoji">✨</div>
+                    <p class="comparison-label">Son únicos</p>
+                    <p class="comparison-description">Como tú, que no necesitas gritar para que te noten. Simplemente
+                        brillas.</p>
+                </div>
+
+                <div class="comparison-item scroll-reveal delay-4">
+                    <div class="comparison-emoji">🌸</div>
+                    <p class="comparison-label">Inspiran ternura</p>
+                    <p class="comparison-description">Exactamente lo que provocas sin siquiera darte cuenta de ello.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- SECCIÓN 8: Mensaje del Corazón -->
+    <section class="section section-message" id="message">
+        <div class="content-center">
+            <div class="message-box scroll-reveal">
+                <p class="message-main">No sé si te gustan los conejos tanto como a mí,</p>
+                <p class="message-main">pero cuando los vi, solo pude pensar una cosa:</p>
+                <p class="message-emphasis">"Ella tiene esa misma dulzura."</p>
+                <p class="message-main" style="margin-top: 2rem;">Y quería que lo supieras.</p>
+            </div>
+
+            <div class="signature-box scroll-reveal delay-2">
+                <p class="signature-text">Gracias por ser quien eres.</p>
+                <p class="signature-text">Gracias por existir en mi vida.</p>
+                <p class="signature-emoji">🐰💕</p>
+            </div>
+
+            <button class="btn-final scroll-reveal delay-3" id="finalBtn">Continuar</button>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 9: Despedida Elegante -->
+    <section class="section section-farewell" id="farewell">
+        <div class="content-center">
+            <div class="farewell-container fade-in" id="farewellContainer">
+                <div class="farewell-bunny">🐇</div>
+                <p class="farewell-text scroll-reveal delay-1">Si esto te sacó una sonrisa, ya valió la pena.</p>
+                <p class="farewell-text scroll-reveal delay-2">Si te hizo sentir especial, todavía mejor.</p>
+                <p class="farewell-text scroll-reveal delay-3">Porque lo eres.</p>
+                <p class="farewell-signature scroll-reveal delay-4">Con todo mi cariño. ✨💖</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Audio de fondo (opcional) -->
+    <audio id="backgroundMusic" loop>
+        <source src="Reik - Creo En Ti (Letra_Lyrics) [LcKVOWOdFvY].mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Control de música elegante -->
+    <button class="music-toggle" id="musicToggle" aria-label="Control de música de fondo">
+        <span class="music-icon">♪</span>
+    </button>
+
+    <script src="Main.js"></script>
+</body>
+
+</html>
